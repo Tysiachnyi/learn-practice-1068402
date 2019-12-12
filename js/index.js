@@ -1,5 +1,7 @@
-let userBudget = prompt("Ваш бюджет?");
-let userCurrentDate = prompt("Введите дату в формате YYYY-MM-DD")
+let userBudget = prompt("Ваш бюджет на месяц");
+let userCurrentDate = prompt("Введите дату в формате YYYY-MM-DD");
+let userExpenses = prompt("Введите обязательную статью расходов в этом месяце");
+let userExpensesCost = prompt("Во сколько обойдется?");
 
 const appData = {
     budget: userBudget,
@@ -9,3 +11,11 @@ const appData = {
     income : [],
     savings: false
 }
+
+appData.expenses[userExpenses] = userExpensesCost
+
+let userBudgetOneDay = userBudget / 30;
+alert(userBudgetOneDay);
+
+
+
