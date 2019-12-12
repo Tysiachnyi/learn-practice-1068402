@@ -15,7 +15,7 @@ const appData = {
 appData.expenses[userExpenses] = userExpensesCost
 
 let userBudgetOneDay = userBudget / 30;
-alert(userBudgetOneDay);
+alert("бюджет на 1 день " + userBudgetOneDay);
 
 
 
