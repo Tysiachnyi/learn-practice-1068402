@@ -1,3 +1,4 @@
 # learn-practice-1068402
 
-HomeWork part 1
+My learn project from Udemy course
+
